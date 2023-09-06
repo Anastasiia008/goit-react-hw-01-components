@@ -1,0 +1,33 @@
+.transaction {
+  background-color: #f2e7a4;
+  width: 600px;
+  margin: 0px auto;
+  margin-bottom: 100px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(18, 16, 16);
+}
+
+th,
+td {
+  height: 50px;
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+th {
+  background-color: rgb(227, 167, 108);
+  color: #000000;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+tr {
+  background-color: #f5dede;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #decee1;
+}

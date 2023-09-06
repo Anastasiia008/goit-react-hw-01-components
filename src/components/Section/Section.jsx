@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
+import css from './Section.module.css';
 
 
-export const Section  = ({ title, children }) => {
+
+const Section  = ({ title, children }) => {
     return (
-        <div>
+        <div className={css.container}>
             {title && <h2>{title}</h2>}
             {children}
         </div>
@@ -12,4 +14,7 @@ export const Section  = ({ title, children }) => {
 
 Section.propTypes = {
     title: PropTypes.string,
+    children: PropTypes.node,
 };
+
+export default Section
